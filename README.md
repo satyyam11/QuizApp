@@ -5,7 +5,7 @@ Quiz App is a web application that allows users to take quizzes, track their per
 * Java 17+
 * Spring Boot for the backend
 * Maven as the build tool
-* H2 Database for in-memory storage (can be replaced with other databases)
+* PostgreSQL Database for storage (can be replaced with other databases)
 * Spring Data JPA for database interaction
 * Postman for API testing
 
@@ -23,7 +23,7 @@ Quiz App is a web application that allows users to take quizzes, track their per
 * mvn clean install
 * Run the Spring Boot application: Start the application with Maven:
 * mvn spring-boot:run
-* To access the H2 Console: Go to [H2-console](http://localhost:8080/h2-console)  and connect using the default JDBC URL: jdbc:h2:mem:testdb, with the username sa and no password.
+  
 ## Features
 * User Registration: Users can create their profiles.
 * Take a Quiz: Users can take random quizzes and submit answers.
