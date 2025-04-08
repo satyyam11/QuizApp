@@ -28,7 +28,7 @@ public class UserController {
                 .map(user -> ResponseEntity.ok(user))
                 .orElseGet(() -> ResponseEntity.notFound().build());
     }
-
+//Get all users
     @GetMapping("/all")
     public ResponseEntity<List<User>> getAllUsers() {
         List<User> users = userRepository.findAll();
