@@ -1,7 +1,7 @@
 package com.example.quiz.app.controllers;
 
 import com.example.quiz.app.models.Question;
-import com.example.quiz.app.services.QuizService;
+import com.example.quiz.app.service.QuizService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
